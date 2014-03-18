@@ -49,6 +49,9 @@
     <Filter Include="SDL">
       <UniqueIdentifier>{7b0a7aae-22c5-4c83-92de-dd14f014cae2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\events">
+      <UniqueIdentifier>{377481ae-4823-4b25-86f8-6806b988d6e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\CMakeLists.txt">
@@ -297,6 +300,18 @@
     </ClInclude>
     <ClInclude Include="..\include\components\itemlock.hpp">
       <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\events\event.hpp">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\events\event_runner.hpp">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\events\event_info.hpp">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\events\event_status.hpp">
+      <Filter>Header Files\events</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

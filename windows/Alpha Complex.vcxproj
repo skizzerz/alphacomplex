@@ -149,6 +149,10 @@ xcopy /Y ..\resources\font\Anonymous_Pro.ttf "$(TargetDir)"</Command>
     <ClInclude Include="..\include\entities\subsystem.hpp" />
     <ClInclude Include="..\include\entities\system.hpp" />
     <ClInclude Include="..\include\entities\workroom.hpp" />
+    <ClInclude Include="..\include\events\event.hpp" />
+    <ClInclude Include="..\include\events\event_info.hpp" />
+    <ClInclude Include="..\include\events\event_runner.hpp" />
+    <ClInclude Include="..\include\events\event_status.hpp" />
     <ClInclude Include="..\include\graphics.hpp" />
     <ClInclude Include="..\include\joblist.hpp" />
     <ClInclude Include="..\include\keys.hpp" />
